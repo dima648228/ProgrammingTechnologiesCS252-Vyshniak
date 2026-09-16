@@ -1,7 +1,7 @@
 def discriminant(a, b , c) -> str:
     result = b*b-4*a*c
 
-    if discriminant < 0:
+    if result < 0:
         return "No roots"
     
     return str(result)
